@@ -23,7 +23,7 @@ const Pricing = () => {
               onClick={() => setIsMonthly(true)}
               className={`${
                 isMonthly
-                  ? "pointer-events-none text-primary"
+                  ? "text-primary pointer-events-none"
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
@@ -38,7 +38,7 @@ const Pricing = () => {
                 <div
                   className={`${
                     isMonthly ? "" : "translate-x-full"
-                  } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
+                  } shadow-switch-1 bg-primary absolute top-[-4px] left-0 flex h-7 w-7 items-center justify-center rounded-full transition`}
                 >
                   <span className="active h-4 w-4 rounded-full bg-white"></span>
                 </div>
@@ -49,7 +49,7 @@ const Pricing = () => {
               className={`${
                 isMonthly
                   ? "text-dark dark:text-white"
-                  : "pointer-events-none text-primary"
+                  : "text-primary pointer-events-none"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
               Yearly
@@ -60,7 +60,7 @@ const Pricing = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
             packageName="Lite"
-            price={isMonthly ? "40" : "120"}
+            price={isMonthly ? "10" : "40"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
@@ -73,7 +73,7 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            price={isMonthly ? "20" : "80"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
@@ -86,7 +86,7 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            price={isMonthly ? "100" : "400"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
@@ -137,8 +137,8 @@ const Pricing = () => {
               y2="1131.65"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#1da1f2" />
+              <stop offset="1" stopColor="#1da1f2" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_93:235"
@@ -148,8 +148,8 @@ const Pricing = () => {
               y2="915.952"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#1da1f2" />
+              <stop offset="1" stopColor="#1da1f2" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>

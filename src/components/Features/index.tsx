@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Core Infrastructure"
-            paragraph="Realtime blockchain ingestion, semantic transformation, and analytics infrastructure."
+            paragraph="Realtime ingestion, semantic transformation, and analytics."
             center
           />
 

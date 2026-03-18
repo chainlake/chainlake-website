@@ -10,50 +10,22 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
-                  {/* <Image
-                    src="/images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
+                <Link href="/" className="flex items-center gap-3 py-4">
                   <Image
                     src="/images/logo/logo.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  /> */}
+                    width={28}
+                    height={28}
+                  />
                   <span className="text-[22px] font-semibold tracking-[-0.02em] text-black dark:text-white">
                     Chainlake
                   </span>
                 </Link>
                 <p className="text-body-color dark:text-body-color-dark mb-9 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Unified blockchain data platform for real-time ingestion,
+                  analytics, and developer APIs.
                 </p>
                 <div className="flex items-center">
-                  <a
-                    href="/"
-                    aria-label="social-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mr-6 duration-300"
-                  >
-                    <svg
-                      width="18"
-                      height="18"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12.1 10.4939V7.42705C12.1 6.23984 13.085 5.27741 14.3 5.27741H16.5V2.05296L13.5135 1.84452C10.9664 1.66676 8.8 3.63781 8.8 6.13287V10.4939H5.5V13.7183H8.8V20.1667H12.1V13.7183H15.4L16.5 10.4939H12.1Z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </a>
                   <a
                     href="/"
                     aria-label="social-link"
@@ -77,7 +49,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://github.com/chainlake"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -85,11 +57,11 @@ const Footer = () => {
                   >
                     <svg
                       width="18"
-                      height="14"
-                      viewBox="0 0 18 14"
+                      height="18"
+                      viewBox="0 0 24 24"
                       className="fill-current"
                     >
-                      <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
+                      <path d="M12 0C5.37 0 0 5.37 0 12C0 17.3 3.438 21.8 8.205 23.385C8.805 23.498 9.025 23.13 9.025 22.815C9.025 22.53 9.015 21.78 9.01 20.775C5.672 21.495 4.968 19.335 4.968 19.335C4.422 17.945 3.633 17.58 3.633 17.58C2.546 16.845 3.717 16.86 3.717 16.86C4.922 16.945 5.555 18.105 5.555 18.105C6.625 19.935 8.36 19.41 9.05 19.11C9.158 18.33 9.467 17.805 9.81 17.505C7.145 17.205 4.344 16.17 4.344 11.55C4.344 10.23 4.809 9.15 5.579 8.31C5.455 8.01 5.049 6.78 5.695 5.115C5.695 5.115 6.705 4.8 9 6.36C9.96 6.09 10.98 5.955 12 5.955C13.02 5.955 14.04 6.09 15 6.36C17.295 4.8 18.305 5.115 18.305 5.115C18.951 6.78 18.545 8.01 18.421 8.31C19.191 9.15 19.656 10.23 19.656 11.55C19.656 16.185 16.85 17.2 14.175 17.495C14.61 17.865 15 18.6 15 19.725C15 21.345 14.985 22.455 14.985 22.815C14.985 23.13 15.205 23.505 15.81 23.385C20.577 21.795 24 17.295 24 12C24 5.37 18.63 0 12 0Z" />
                     </svg>
                   </a>
                   <a
@@ -115,7 +87,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Products
                 </h2>
                 <ul>
                   <li>
@@ -245,7 +217,7 @@ const Footer = () => {
                 cx="49.5"
                 cy="49.5"
                 r="49.5"
-                fill="#4A6CF7"
+                fill="#1da1f2"
               />
             </mask>
             <g mask="url(#mask0_94:899)">
@@ -351,8 +323,8 @@ const Footer = () => {
                 y2="59.8878"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#1da1f2" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#1da1f2" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_94:889"
@@ -362,8 +334,8 @@ const Footer = () => {
                 y2="20.668"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51" />
+                <stop stopColor="#1da1f2" stopOpacity="0" />
+                <stop offset="1" stopColor="#1da1f2" stopOpacity="0.51" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_94:889"
@@ -373,8 +345,8 @@ const Footer = () => {
                 y2="25.1062"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#1da1f2" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#1da1f2" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_94:889"
@@ -384,8 +356,8 @@ const Footer = () => {
                 y2="80.6826"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51" />
+                <stop stopColor="#1da1f2" stopOpacity="0" />
+                <stop offset="1" stopColor="#1da1f2" stopOpacity="0.51" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_94:889"
@@ -395,8 +367,8 @@ const Footer = () => {
                 y2="58.2156"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#1da1f2" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#1da1f2" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_94:889"
@@ -406,8 +378,8 @@ const Footer = () => {
                 y2="41.6598"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51" />
+                <stop stopColor="#1da1f2" stopOpacity="0" />
+                <stop offset="1" stopColor="#1da1f2" stopOpacity="0.51" />
               </linearGradient>
             </defs>
           </svg>
