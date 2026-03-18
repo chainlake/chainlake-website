@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign In Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Sign In Page for Startup Nextjs Template",
+  title: "Log in Page | Free Next.js Template for Startup and SaaS",
+  description: "This is Log in Page for Startup Nextjs Template",
   // other metadata
 };
 
-const SigninPage = () => {
+const LoginPage = () => {
   return (
     <>
       <section className="relative z-10 overflow-hidden pt-36 pb-16 md:pb-20 lg:pt-[180px] lg:pb-28">
@@ -17,7 +17,7 @@ const SigninPage = () => {
             <div className="w-full px-4">
               <div className="shadow-three dark:bg-dark mx-auto max-w-[500px] rounded-sm bg-white px-6 py-10 sm:p-[60px]">
                 <h3 className="mb-3 text-center text-2xl font-bold text-black sm:text-3xl dark:text-white">
-                  Sign in to your account
+                  Log in to your account
                 </h3>
                 <p className="text-body-color mb-11 text-center text-base font-medium">
                   Login to your account for a faster checkout.
@@ -154,7 +154,7 @@ const SigninPage = () => {
                   </div>
                   <div className="mb-6">
                     <button className="shadow-submit dark:shadow-submit-dark bg-primary hover:bg-primary/90 flex w-full items-center justify-center rounded-md px-9 py-4 text-base font-medium text-white duration-300">
-                      Sign in
+                      Log in
                     </button>
                   </div>
                 </form>
@@ -230,4 +230,4 @@ const SigninPage = () => {
   );
 };
 
-export default SigninPage;
+export default LoginPage;
