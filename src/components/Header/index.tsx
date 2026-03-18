@@ -22,9 +22,23 @@ const Header = () => {
       setSticky(false);
     }
   };
+
   useEffect(() => {
+    const handleStickyNavbar = () => {
+      const shouldStick = window.scrollY >= 80;
+
+      setSticky((prev) => {
+        if (prev !== shouldStick) return shouldStick;
+        return prev;
+      });
+    };
+
     window.addEventListener("scroll", handleStickyNavbar);
-  });
+
+    return () => {
+      window.removeEventListener("scroll", handleStickyNavbar);
+    };
+  }, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -43,8 +57,8 @@ const Header = () => {
       <header
         className={`header fixed top-0 left-0 z-40 flex w-full items-center ${
           sticky
-            ? "border-b border-gray-100 bg-white/90 backdrop-blur-md"
-            : "border-b border-gray-100 bg-white/70 backdrop-blur-sm"
+            ? "border-b border-gray-100 bg-white/70 shadow-sm backdrop-blur-md"
+            : "border-b border-gray-100 bg-white/70 backdrop-blur-md"
         }`}
       >
         <div className="container">
@@ -53,7 +67,7 @@ const Header = () => {
               <Link
                 href="/"
                 className={`flex items-center gap-3 py-4 ${
-                  sticky ? "py-5 lg:py-2" : "py-4"
+                  sticky ? "lg:py-2" : "py-4"
                 } `}
               >
                 <Image

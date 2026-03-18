@@ -11,7 +11,7 @@ const Contact = () => {
               data-wow-delay=".15s
               "
             >
-              <h2 className="mb-3 text-2xl font-bold text-black sm:text-3xl lg:text-2xl xl:text-3xl dark:text-white">
+              <h2 className="mb-3 text-2xl font-semibold text-black sm:text-3xl lg:text-2xl xl:text-3xl dark:text-white">
                 Need Help? Open a Ticket
               </h2>
               <p className="text-body-color mb-12 text-base font-medium">

@@ -12,21 +12,21 @@ If you're looking for a high-quality and visually appealing, feature-rich Next.j
 - High-quality and Clean Design
 - Dark and Light Version
 - TypeScript Support
-and Much More ...
+  and Much More ...
 
 ### 🙌 Detailed comparison between the Free and Pro versions of Startup
 
-| Feature             | Free | Pro |
-|---------------------|------------|----------|
-| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
-| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
-| Homepage Variations             | 1      | 2 |
-| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
-| Functional Blog with Sanity       | ❌ No      | ✅ Yes |
-| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
-| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
-| Email Support       | ❌ No         | ✅ Yes       |
-| Community Support         | ✅ Yes         | ✅ Yes       |
+| Feature                                                           | Free   | Pro    |
+| ----------------------------------------------------------------- | ------ | ------ |
+| Next.js Landing Page                                              | ✅ Yes | ✅ Yes |
+| All The Integrations - Auth, DB, Payments, Blog and many more ... | ❌ No  | ✅ Yes |
+| Homepage Variations                                               | 1      | 2      |
+| Additional SaaS Pages and Components                              | ❌ No  | ✅ Yes |
+| Functional Blog with Sanity                                       | ❌ No  | ✅ Yes |
+| Use with Commercial Projects                                      | ✅ Yes | ✅ Yes |
+| Lifetime Free Updates                                             | ✅ Yes | ✅ Yes |
+| Email Support                                                     | ❌ No  | ✅ Yes |
+| Community Support                                                 | ✅ Yes | ✅ Yes |
 
 ### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
 
@@ -79,3 +79,8 @@ If you like the template, please star this repository to inspire the team to cre
 **29 Jan 2025**
 
 - Upgraded to Next.js 15
+
+**18 Jan 2026**
+
+- icon - 标准太极几何 + 蓝色右重心
+- brand - 蓝色向右推进, 数据流向未来

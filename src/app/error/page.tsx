@@ -141,7 +141,7 @@ const ErrorPage = () => {
                     </defs>
                   </svg>
                 </div>
-                <h3 className="mb-4 text-3xl font-bold text-black sm:text-4xl dark:text-white">
+                <h3 className="mb-4 text-3xl font-semibold text-black sm:text-4xl dark:text-white">
                   Sorry, the page can’t be found
                 </h3>
                 <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
@@ -150,7 +150,7 @@ const ErrorPage = () => {
                 </p>
                 <Link
                   href="/"
-                  className="bg-primary shadow-signUp hover:text-primary rounded-md px-8 py-3 text-base font-bold text-white duration-300 hover:bg-white md:px-9 lg:px-8 xl:px-9"
+                  className="bg-primary shadow-signUp hover:text-primary rounded-md px-8 py-3 text-base font-semibold text-white duration-300 hover:bg-white md:px-9 lg:px-8 xl:px-9"
                 >
                   Back to Homepage
                 </Link>
