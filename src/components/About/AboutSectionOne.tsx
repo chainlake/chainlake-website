@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Real-Time Blockchain Data Infrastructure for Builders."
+                title="Real-Time Blockchain Lakehouse for Builders."
                 paragraph="Chainlake delivers structured on-chain data pipelines from RPC ingestion to analytics-ready datasets, enabling developers and analysts to build faster with reliable blockchain intelligence."
                 mb="44px"
               />

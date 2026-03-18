@@ -27,28 +27,28 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                <h3 className="mb-4 text-xl font-semibold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
                   High Throughput Data Processing
                 </h3>
-                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color font text-base leading-relaxed sm:text-lg sm:leading-relaxed">
                   Stream millions of blockchain events through scalable Kafka
                   pipelines with low latency delivery.
                 </p>
               </div>
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                <h3 className="mb-4 text-xl font-semibold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
                   Query-Ready Analytics
                 </h3>
-                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color font text-base leading-relaxed sm:text-lg sm:leading-relaxed">
                   ClickHouse powers fast SQL analytics for dashboards, APIs, and
                   historical research.
                 </p>
               </div>
               <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                <h3 className="mb-4 text-xl font-semibold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
                   Built for Web3 Teams
                 </h3>
-                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color font text-base leading-relaxed sm:text-lg sm:leading-relaxed">
                   Designed for protocols, analysts, and developers who need
                   reliable blockchain data infrastructure.
                 </p>

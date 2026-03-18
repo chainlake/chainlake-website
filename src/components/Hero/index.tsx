@@ -15,8 +15,9 @@ const Hero = () => {
                   Blockchain Data Lakehouse
                 </h1>
                 <p className="text-body-color dark:text-body-color-dark mb-12 text-base leading-relaxed! sm:text-lg md:text-xl">
-                  Realtime blockchain ingestion, semantic transformation, and
-                  analytics infrastructure.
+                  From blockchain ingestion to real-time analytics, Chainlake
+                  combines streaming pipelines, scalable compute, and fast query
+                  infrastructure for Web3 applications.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                   <Link

@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Core Infrastructure"
-            paragraph="From blockchain ingestion to real-time analytics, Chainlake combines streaming pipelines, scalable compute, and fast query infrastructure for Web3 applications."
+            paragraph="Realtime blockchain ingestion, semantic transformation, and analytics infrastructure."
             center
           />
 
