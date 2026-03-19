@@ -28,7 +28,7 @@ export default function RootLayout({
             {children}
             <Footer />
           </div>
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
         </Providers>
       </body>
     </html>
@@ -36,4 +36,3 @@ export default function RootLayout({
 }
 
 import { Providers } from "./providers";
-

@@ -58,7 +58,7 @@ const Header = () => {
         className={`header fixed top-0 left-0 z-40 flex w-full items-center ${
           sticky
             ? "border-b border-gray-100 bg-white/70 shadow-sm backdrop-blur-md"
-            : "border-b border-gray-100 bg-white/70 backdrop-blur-md"
+            : "border-b border-gray-100 bg-white/70 shadow-sm backdrop-blur-md"
         }`}
       >
         <div className="container">
