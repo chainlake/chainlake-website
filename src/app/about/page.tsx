@@ -14,7 +14,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Chainlake"
+        pageName="About us"
         description="Chainlake is a unified blockchain data platform for real-time ingestion, analytics, and developer APIs."
       />
       <AboutSectionOne />

@@ -4,19 +4,21 @@ import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
-const Pricing = () => {
+const PricingSection = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
+        {/* Section Title */}
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Transparent & Flexible Pricing"
+          paragraph="Choose a plan that fits your needs. Scale from prototype to production effortlessly."
           center
-          width="665px"
+          width="670px"
         />
 
+        {/* Billing Toggle */}
         <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
             <span
@@ -56,46 +58,68 @@ const Pricing = () => {
             </span>
           </div>
         </div>
-
+        {/* Pricing Cards */}
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+          {/* Free Plan */}
           <PricingBox
             packageName="Free"
             price={isMonthly ? "0" : "0"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Get started with Chainlake’s core features, access real-time on-chain data and basic analytics for free."
+            ctaText="Try it Free"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Real-time on-chain data API" status="active" />
+            <OfferList text="Basic analytics dashboards" status="active" />
+            <OfferList text="Up to 1 project" status="active" />
+            <OfferList text="Community email support" status="active" />
+            <OfferList text="Custom reports" status="inactive" />
+            <OfferList text="Enterprise SLA" status="inactive" />
           </PricingBox>
+          {/* Pro Plan */}
           <PricingBox
             packageName="Pro"
             price={isMonthly ? "20" : "80"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Advanced analytics and API access for multiple projects with faster data refresh rates to boost decision-making."
+            highlight // 默认高亮
+            ctaText="Start with Pro"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Real-time on-chain data API" status="active" />
+            <OfferList text="Multiple project management" status="active" />
+            <OfferList
+              text="Advanced visualization components"
+              status="active"
+            />
+            <OfferList text="Priority email support" status="active" />
+            <OfferList text="Custom reports" status="active" />
+            <OfferList text="Enterprise SLA" status="inactive" />
           </PricingBox>
+          {/* Enterprise Plan */}
           <PricingBox
             packageName="Enterprise"
             price={isMonthly ? "100" : "400"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Enterprise-grade solution with dedicated support, custom data pipelines, and SLA services for large-scale blockchain data needs."
+            ctaText="Contact Sales"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Real-time on-chain data API" status="active" />
+            <OfferList
+              text="Multiple projects & team management"
+              status="active"
+            />
+            <OfferList
+              text="Advanced visualization components"
+              status="active"
+            />
+            <OfferList
+              text="Dedicated account manager & support"
+              status="active"
+            />
+            <OfferList text="Custom data pipelines" status="active" />
+            <OfferList
+              text="Enterprise SLA & custom services"
+              status="active"
+            />
           </PricingBox>
         </div>
       </div>
@@ -103,4 +127,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default PricingSection;
