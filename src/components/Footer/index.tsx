@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="flex items-center gap-3 py-4">
+                <div className="flex items-center gap-3 py-4">
                   <Image
                     src="/images/logo/logo.svg"
                     alt="logo"
@@ -20,7 +20,7 @@ const Footer = () => {
                   <span className="text-[22px] font-semibold tracking-[-0.02em] text-black dark:text-white">
                     Chainlake
                   </span>
-                </Link>
+                </div>
                 <p className="text-body-color dark:text-body-color-dark mb-9 text-base leading-relaxed">
                   Unified blockchain data platform for real-time ingestion,
                   analytics, and developer APIs.

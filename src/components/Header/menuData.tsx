@@ -76,44 +76,37 @@ const menuData: Menu[] = [
     ],
   },
 
-  {
-    id: 3,
-    title: "Pricing",
-    path: "/pricing",
-    newTab: false,
-  },
-
-  {
-    id: 4,
-    title: "Resources",
-    newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "Blob",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Architecture",
-        path: "/contact",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Changelog",
-        path: "/contact",
-        newTab: false,
-      },
-      {
-        id: 44,
-        title: "Guides",
-        path: "/contact",
-        newTab: false,
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Resources",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 41,
+  //       title: "Blob",
+  //       path: "/about",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 42,
+  //       title: "Architecture",
+  //       path: "/contact",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 43,
+  //       title: "Changelog",
+  //       path: "/contact",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 44,
+  //       title: "Guides",
+  //       path: "/contact",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
   {
     id: 5,
     title: "Company",
@@ -137,7 +130,20 @@ const menuData: Menu[] = [
         path: "/contact",
         newTab: false,
       },
+      {
+        id: 54,
+        title: "Blog",
+        path: "/blog",
+        newTab: false,
+      },
     ],
+  },
+
+  {
+    id: 3,
+    title: "Pricing",
+    path: "/pricing",
+    newTab: false,
   },
 ];
 export default menuData;
