@@ -13,7 +13,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "Chainlake | Blockchain Data Lakehouse",
+    default: "Chainlake | Blockchain Data Lakehouse for Developers & Investors",
     template: "%s | Chainlake",
   },
 
