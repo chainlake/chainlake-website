@@ -57,8 +57,8 @@ const Header = () => {
       <header
         className={`header fixed top-0 left-0 z-40 flex w-full items-center ${
           sticky
-            ? "border-b border-gray-100 bg-white/70 shadow-sm backdrop-blur-md"
-            : "border-b border-gray-100 bg-white/70 shadow-sm backdrop-blur-md"
+            ? "dark:bg-gray-dark dark:shadow-sticky-dark shadow-sticky border-gray-100 bg-white/70 backdrop-blur-md"
+            : "dark:bg-gray-dark dark:shadow-sticky-dark shadow-sticky border-gray-100 bg-white/70 backdrop-blur-md"
         }`}
       >
         <div className="container">
@@ -114,7 +114,7 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:flex lg:space-x-6">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
@@ -135,7 +135,7 @@ const Header = () => {
                               className="text-dark group-hover:text-primary flex cursor-pointer items-center justify-between py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 dark:text-white/70 dark:group-hover:text-white"
                             >
                               {menuItem.title}
-                              <span className="pl-3">
+                              <span className="pl-0">
                                 <svg width="25" height="24" viewBox="0 0 25 24">
                                   <path
                                     fillRule="evenodd"
@@ -181,7 +181,9 @@ const Header = () => {
                 >
                   Sign up
                 </Link>
-                {/* <div><ThemeToggler /></div> */}
+                <div>
+                  <ThemeToggler />
+                </div>
               </div>
             </div>
           </div>

@@ -5,14 +5,14 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-[linear-gradient(180deg,#dbeafe_0%,#eaf4ff_45%,#ffffff_100%)] pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-30 pb-16 md:pt-37.5 md:pb-30 xl:pt-45 xl:pb-40 2xl:pt-52.5 2xl:pb-50"
       >
         {/* Grid */}
-        <div className="absolute inset-0 -z-10 bg-[linear-gradient(rgba(29,161,242,1)_1px,transparent_1px),linear-gradient(90deg,rgba(29,161,242,1)_1px,transparent_1px)] bg-[size:64px_64px] opacity-[0.03]" />
+        <div className="absolute inset-0 -z-10 bg-[linear-gradient(rgba(29,161,242,1)_1px,transparent_1px),linear-gradient(90deg,rgba(29,161,242,1)_1px,transparent_1px)] bg-size-[64px_64px] opacity-[0.03]" />
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
+              <div className="mx-auto max-w-200 text-center">
                 <h1 className="mb-5 text-3xl leading-tight font-semibold text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight dark:text-white">
                   Blockchain Data Lakehouse
                 </h1>

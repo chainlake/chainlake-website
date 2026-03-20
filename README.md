@@ -2,8 +2,6 @@
 
 Startup is a free, open-source, and premium-quality [**Next.js startup website template**](https://nextjstemplates.com/templates/startup) that comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
-
 ### ✨ Key Features
 
 - Crafted for Startup and SaaS Business
@@ -11,8 +9,6 @@ If you're looking for a high-quality and visually appealing, feature-rich Next.j
 - All Essential Business Sections and Pages
 - High-quality and Clean Design
 - Dark and Light Version
-- TypeScript Support
-  and Much More ...
 
 ### 🙌 Detailed comparison between the Free and Pro versions of Startup
 
@@ -30,17 +26,7 @@ If you're looking for a high-quality and visually appealing, feature-rich Next.j
 
 ### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
 
-[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
-
 Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
-
-- [🚀 View Free Demo](https://startup.nextjstemplates.com/)
-
-- [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
-
-- [📦 Download](https://nextjstemplates.com/templates/startup)
-
-- [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
 
 - [🔌 Documentation](https://nextjstemplates.com/docs)
 
@@ -53,12 +39,6 @@ Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startu
 ### 📄 License
 
 Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
-
-### 💜 Support
-
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
 
 ### Update Log
 
@@ -82,5 +62,6 @@ If you like the template, please star this repository to inspire the team to cre
 
 **18 Jan 2026**
 
+- Upgraded to Next.js 16
 - icon - 标准太极几何 + 蓝色右重心
 - brand - 蓝色向右推进, 数据流向未来
